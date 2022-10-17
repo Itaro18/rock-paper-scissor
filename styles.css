@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+/* font-family: 'Rubik Dirt', cursive; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-family: 'Rubik Dirt', cursive;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 50%;
+    height: 175px;
+}
+
+h1{
+    font-size: 7vh;
+}
+
+h2{
+    margin-bottom: 1rem;
+    font-size: 4vh;
+}
+
+p{
+    font-size: 3vh;
+}
+
+
+.game{
+    margin: 5vh 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px; 
+    
+}
+
+.bot{
+    width: 35%;
+}
+
+.player{
+    width: 35%;
+}
+
+.vs{
+    font-size: 10vh;
+}
+
+.play{
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+.choice{
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.75rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    margin: 1rem 0.25rem;
+}
+
+.result{
+    margin: 1rem 0 2rem ;
+    font-size: 2rem;
+}
+
+.play-agn{
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
